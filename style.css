@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap');
+
+body {
+  background-color: whitesmoke;
+  background-image: linear-gradient(#FFEFBA, #FFFFFF);
+  background-attachment: fixed;
+  color: black;
+  text-align: center;
+  font-family: 'Domine', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top_head {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: black;
+  width: 100%;
+  height: auto;
+}
+
+.timer {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  width: 60px;
+  margin: 4px;
+  padding: 5px;
+  border-radius: 15%;
+  border: 2px solid red;
+}
+
+.wpm {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  width: 100px;
+  margin: 4px;
+  padding: 5px;
+  border-radius: 15%;
+  border: 2px solid green;
+}
+
+
+.wpm {
+  color: rgb(16, 197, 16);
+  display: none;
+}
+
+.head {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  font-weight: bolder;
+}
+
+.static_time {
+  font-size: 25px;
+  color: red;
+}
+
+.static_wpm {
+  font-size: 25px;
+  color: green;
+}
+
+.content {
+  background-color: white;
+  font-family: 'Castoro', sans-serif;
+  margin: 10px;
+  padding: 25px;
+  box-shadow: grey 5px 8px 5px;
+  border-radius: 10px;
+}
+
+.inbox {
+  background-color: white;
+  height: 100px;
+  width: 50%;
+  font-size: 1rem;
+  margin: 12px;
+  padding: 10px;
+  font-family: 'Domine', serif;
+  border: 0px;
+  box-shadow: grey 5px 8px 5px;
+  border-radius: 10px;
+}
+
+.restart {
+  font-size: 1.5rem;
+  background-color: rgb(110, 119, 161);
+  display: none;
+  padding: 8px;
+  border: 0px;
+  color: white;
+  font-family: 'Domine', serif;
+  border-radius: 10px;
+  width: 15%;
+  box-shadow: grey 5px 8px 5px;
+}
+
+.start {
+  background-color: rgb(66, 95, 221);
+  font-family: 'Domine', serif;
+  font-size: 2rem;
+  padding: 8px;
+  border: 0px;
+  color: white;
+  border-radius: 10px;
+  width: 15%;
+  box-shadow: grey 5px 8px 5px;
+}
